@@ -10,3 +10,9 @@ footer{margin-top:42px;background:var(--lilas);padding:24px 0}.footer-inner{disp
 @media (max-width:760px){.container{width:min(100% - 22px,1080px)}.cards,.info-grid{grid-template-columns:1fr}.card,.info{padding:19px;border-radius:19px}.hero{padding-top:30px}.button{width:100%}.molecule{min-height:220px}footer{margin-top:30px}}
 @media (max-width:420px){.container{width:min(100% - 16px,1080px)}.topbar{padding-inline:10px}.card,.info{padding:16px}.section-title{width:100%;text-align:center}.molecule{min-height:195px;padding:8px}.footer-inner{align-items:flex-start;flex-direction:column}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+
+
+.structure-image { display:block; width:min(100%,330px); max-height:330px; object-fit:contain; margin:auto; }
+.image-credit { margin:10px 0 0; text-align:center; font-size:.78rem; line-height:1.35; color:#665f72; }
+.image-credit a { color:#5d4b9e; font-weight:700; }
+@media (max-width:420px){ .structure-image{width:min(100%,270px); max-height:270px;} }
